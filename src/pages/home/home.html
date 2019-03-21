@@ -1,13 +1,19 @@
 <ion-header>
   <ion-navbar>
     <ion-title>
-      Guidolini Odontologia
+      Matemática das sombras
     </ion-title>
   </ion-navbar>
 </ion-header>
 
 <ion-content padding>
   <ion-list>
+
+   
+      <ion-avatar>
+        <img class="avatars" src = "./assets/imgs/batman.png">
+       </ion-avatar>
+   
 
     <ion-item>
       <ion-input type="text" placeholder="Usuário"></ion-input>
@@ -19,7 +25,9 @@
   
   </ion-list>
 
-  <button ion-button color="entrar" full>Entrar</button>
- 
+  <button ion-button color="dark" full icon-start (click)="openPrincipal()">
+  <ion-icon name="home"></ion-icon>
+  Entrar 
+</button>
   
 </ion-content>
